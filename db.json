@@ -660,20 +660,6 @@
       "updatedAt": "2025-04-10"
     },
     {
-      "name": "Vivo X30",
-      "category": 1,
-      "brand_id": 4,
-      "price": 12213333333,
-      "image": "img/vivo.jpg",
-      "description": "123444444444444444444",
-      "hot": false,
-      "authentic": false,
-      "stock": 100,
-      "updatedAt": "2025-10-16T18:48:30.854Z",
-      "specs_id": "207",
-      "id": "205"
-    },
-    {
       "id": "206",
       "name": "iPhone 14",
       "category": 1,
