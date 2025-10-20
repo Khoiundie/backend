@@ -1,78 +1,96 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "iPhone 14",
-      "brand": 1,
+      "id": 1,
+      "name": "Iphone 14",
       "price": 20000000,
-      "stock": 120,
-      "category": 1,
-      "specs_id": "1",
-      "tags": ["flagship", "cao cấp"],
+      "image": "img/iphone.jpg",
+      "category": "điện thoại",
       "hot": true,
-      "variants": [
-        { "ram": "6GB", "rom": "64GB" },
-        { "ram": "8GB", "rom": "128GB" }
-      ]
+      "description": "iPhone 14 sở hữu thiết kế sang trọng, hiệu năng mạnh mẽ với chip A15 Bionic và camera kép chất lượng cao."
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Samsung S23",
-      "brand": 2,
       "price": 18000000,
-      "stock": 95,
-      "category": 1,
-      "specs_id": "2",
-      "tags": ["chụp đêm"],
-      "variants": [
-        { "ram": "6GB", "rom": "64GB" },
-        { "ram": "8GB", "rom": "128GB" }
-      ]
+      "image": "img/samsung.jpg",
+      "category": "điện thoại",
+      "hot": true,
+      "description": "Samsung S23 mang đến trải nghiệm mượt mà với màn hình AMOLED 120Hz, camera sắc nét và pin bền bỉ."
     },
     {
-      "id": "5",
-      "name": "Macbook Pro 2023",
-      "brand": 1,
-      "price": 55000000,
-      "stock": 40,
-      "category": 2,
-      "specs_id": "5",
-      "tags": ["cao cấp"],
-      "variants": [
-        { "ram": "16GB", "rom": "512GB" },
-        { "ram": "32GB", "rom": "1TB" }
-      ]
-    }
-  ],
-  "product_specs": [
-    { "screen": "6.1 inch XDR OLED", "cpu": "A15 Bionic", "id": "1" },
-    { "id": "2", "screen": "6.1 inch AMOLED", "cpu": "Snapdragon 8 Gen 2" },
-    { "id": "5", "screen": "16 inch Liquid XDR", "cpu": "Apple M2 Pro" },
-    { "id": "7", "screen": "14 inch OLED", "cpu": "Core i5-1335U" }
-  ],
-  "orders": [
+      "id": 3,
+      "name": "Xiaomi 13",
+      "price": 15000000,
+      "image": "img/xiaomi.jpg",
+      "category": "điện thoại",
+      "hot": false,
+      "description": "Xiaomi 13 có cấu hình cao, camera Leica và sạc nhanh 67W, phù hợp cho người dùng yêu công nghệ."
+    },
     {
-      "id": "1",
-      "customerInfo": { "name": "Nguyễn Văn A", "email": "vana@example.com" },
-      "total": 20200000,
-      "status": "Đang xử lý"
+      "id": 4,
+      "name": "Vivo X30",
+      "price": 7000000,
+      "image": "img/vivo.jpg",
+      "category": "điện thoại",
+      "hot": false,
+      "description": "Vivo X30 là lựa chọn tiết kiệm với màn hình lớn, pin trâu và camera chụp ảnh đẹp trong tầm giá."
+    },
+    {
+      "id": 5,
+      "name": "Macbook Pro 2023",
+      "price": 55000000,
+      "image": "img/macbook.jpg",
+      "category": "laptop",
+      "hot": true,
+      "description": "MacBook Pro 2023 trang bị chip M2 Pro mạnh mẽ, màn hình Retina sắc nét và thời lượng pin cực dài."
+    },
+    {
+      "id": 6,
+      "name": "Dell XPS 13",
+      "price": 35000000,
+      "image": "img/dell.jpg",
+      "category": "laptop",
+      "hot": false,
+      "description": "Dell XPS 13 nổi bật với thiết kế viền mỏng, hiệu năng ổn định và bàn phím thoải mái khi gõ."
+    },
+    {
+      "id": 7,
+      "name": "Asus Zenbook",
+      "price": 25000000,
+      "image": "img/asus.jpg",
+      "category": "laptop",
+      "hot": false,
+      "description": "Asus Zenbook mang phong cách hiện đại, mỏng nhẹ, pin tốt, phù hợp cho sinh viên và dân văn phòng."
+    },
+    {
+      "id": 8,
+      "name": "HP Envy",
+      "price": 20000000,
+      "image": "img/hp.jpg",
+      "category": "laptop",
+      "hot": true,
+      "description": "HP Envy có thiết kế tinh tế, cấu hình khỏe, màn hình sắc nét và nhiều tính năng bảo mật thông minh."
     }
   ],
   "users": [
-    { "id": "1", "name": "Admin", "role": "admin" }
-  ],
-  "metadata": {
-    "categories": [
-      { "id": "1", "name": "Điện thoại" },
-      { "id": "2", "name": "Laptop" },
-      { "id": "3", "name": "Phụ kiện" }
-    ],
-    "brands": [
-      { "id": "1", "name": "Apple" },
-      { "id": "2", "name": "Samsung" },
-      { "id": "3", "name": "Xiaomi" },
-      { "id": "5", "name": "Dell" },
-      { "id": "6", "name": "Asus" }
-    ]
-  }
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "hon",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "username": "test",
+      "password": "111111",
+      "role": "user"
+    }
+  ]
 }
