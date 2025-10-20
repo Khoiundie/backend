@@ -3,539 +3,116 @@
     {
       "id": "1",
       "name": "iPhone 14",
-      "slug": "iphone-14",
       "brand": 1,
       "price": 20000000,
       "discount": 5,
       "stock": 120,
-      "image": "img/iphone.jpg",
       "category": 1,
       "specs_id": "1",
-      "tags": [
-        "flagship",
-        "cao cấp",
-        "camera đẹp"
-      ],
+      "tags": ["flagship", "cao cấp"],
       "hot": true,
       "rating": 4.8,
-      "reviews": 1023,
-      "description": "iPhone 14 với thiết kế sang trọng, chip A15 Bionic mạnh mẽ, camera kép 12MP cho hình ảnh sắc nét.",
+      "description": "iPhone 14 với thiết kế sang trọng, chip A15 Bionic mạnh mẽ.",
       "variants": [
-        {
-          "ram": "6GB",
-          "rom": "64GB",
-          "price": 20000000
-        },
-        {
-          "ram": "8GB",
-          "rom": "128GB",
-          "price": 22500000
-        },
-        {
-          "ram": "12GB",
-          "rom": "256GB",
-          "price": 25000000
-        }
+        { "ram": "6GB", "rom": "64GB", "price": 20000000 },
+        { "ram": "8GB", "rom": "128GB", "price": 22500000 }
       ],
-      "colorOptions": [
-        "Đen",
-        "Trắng",
-        "Xanh dương",
-        "Tím"
-      ],
-      "authentic": "chính hãng",
-      "warranty": "12 tháng",
-      "createdAt": "2025-09-20",
-      "updatedAt": "2025-09-25"
+      "warranty": "12 tháng"
     },
     {
       "id": "2",
       "name": "Samsung S23",
-      "slug": "samsung-s23",
       "brand": 2,
       "price": 18000000,
       "discount": 10,
       "stock": 95,
-      "image": "img/samsung.jpg",
       "category": 1,
       "specs_id": "2",
-      "tags": [
-        "flagship",
-        "chụp đêm",
-        "pin trâu"
-      ],
-      "hot": false,
+      "tags": ["flagship", "chụp đêm"],
       "rating": 4.6,
-      "reviews": 857,
-      "description": "Samsung Galaxy S23 với màn hình Dynamic AMOLED 2X, hiệu năng mạnh mẽ, chụp đêm xuất sắc.",
+      "description": "Samsung Galaxy S23 màn hình Dynamic AMOLED 2X, chụp đêm xuất sắc.",
       "variants": [
-        {
-          "ram": "6GB",
-          "rom": "64GB",
-          "price": 18000000
-        },
-        {
-          "ram": "8GB",
-          "rom": "128GB",
-          "price": 19500000
-        },
-        {
-          "ram": "12GB",
-          "rom": "256GB",
-          "price": 21500000
-        }
+        { "ram": "6GB", "rom": "64GB", "price": 18000000 },
+        { "ram": "8GB", "rom": "128GB", "price": 19500000 }
       ],
-      "colorOptions": [
-        "Đen",
-        "Xanh lá",
-        "Hồng"
-      ],
-      "authentic": "chính hãng",
-      "warranty": "18 tháng",
-      "createdAt": "2025-08-01",
-      "updatedAt": "2025-08-10"
-    },
-    {
-      "id": "3",
-      "name": "Xiaomi 13",
-      "slug": "xiaomi-13",
-      "brand": 3,
-      "price": 15000000,
-      "discount": 15,
-      "stock": 80,
-      "image": "img/xiaomi.jpg",
-      "category": 1,
-      "specs_id": "3",
-      "tags": [
-        "giá rẻ",
-        "chụp ảnh",
-        "pin khỏe"
-      ],
-      "hot": false,
-      "rating": 4.4,
-      "reviews": 562,
-      "description": "Xiaomi 13 trang bị chip Snapdragon 8 Gen 2, camera Leica, pin bền bỉ cùng sạc nhanh 120W.",
-      "variants": [
-        {
-          "ram": "6GB",
-          "rom": "64GB",
-          "price": 15000000
-        },
-        {
-          "ram": "8GB",
-          "rom": "128GB",
-          "price": 16500000
-        },
-        {
-          "ram": "12GB",
-          "rom": "256GB",
-          "price": 18500000
-        }
-      ],
-      "colorOptions": [
-        "Trắng",
-        "Xanh ngọc",
-        "Đen"
-      ],
-      "authentic": "xách tay",
-      "warranty": "6 tháng",
-      "createdAt": "2025-07-10",
-      "updatedAt": "2025-07-20"
-    },
-    {
-      "id": "4",
-      "name": "Vivo X30",
-      "slug": "vivo-x30",
-      "brand": 4,
-      "price": 7000000,
-      "discount": 20,
-      "stock": 150,
-      "image": "img/vivo.jpg",
-      "category": 1,
-      "specs_id": "4",
-      "tags": [
-        "giá rẻ",
-        "sinh viên",
-        "pin trâu"
-      ],
-      "hot": false,
-      "rating": 4.2,
-      "reviews": 321,
-      "description": "Vivo X30 giá rẻ với màn hình lớn, cụm 3 camera sau, pin trâu đáp ứng nhu cầu giải trí cơ bản.",
-      "variants": [
-        {
-          "ram": "4GB",
-          "rom": "64GB",
-          "price": 7000000
-        },
-        {
-          "ram": "6GB",
-          "rom": "128GB",
-          "price": 8000000
-        },
-        {
-          "ram": "8GB",
-          "rom": "256GB",
-          "price": 9500000
-        }
-      ],
-      "colorOptions": [
-        "Đen",
-        "Xanh",
-        "Hồng"
-      ],
-      "authentic": "xách tay",
-      "warranty": "12 tháng",
-      "createdAt": "2025-05-10",
-      "updatedAt": "2025-05-15"
+      "warranty": "18 tháng"
     },
     {
       "id": "5",
       "name": "Macbook Pro 2023",
-      "slug": "macbook-pro-2023",
       "brand": 1,
       "price": 55000000,
       "discount": 7,
       "stock": 40,
-      "image": "img/macbook.jpg",
       "category": 2,
       "specs_id": "5",
-      "tags": [
-        "cao cấp",
-        "mỏng nhẹ",
-        "sinh viên IT"
-      ],
+      "tags": ["cao cấp", "mỏng nhẹ"],
       "hot": true,
       "rating": 4.9,
-      "reviews": 1250,
-      "description": "Macbook Pro 2023 chạy chip Apple M2 Pro, hiệu năng cực mạnh, màn Liquid Retina XDR đẳng cấp.",
+      "description": "Macbook Pro 2023 chip Apple M2 Pro, màn Liquid Retina XDR đẳng cấp.",
       "variants": [
-        {
-          "ram": "16GB",
-          "rom": "512GB",
-          "price": 55000000
-        },
-        {
-          "ram": "32GB",
-          "rom": "1TB",
-          "price": 62000000
-        },
-        {
-          "ram": "64GB",
-          "rom": "2TB",
-          "price": 72000000
-        }
+        { "ram": "16GB", "rom": "512GB", "price": 55000000 },
+        { "ram": "32GB", "rom": "1TB", "price": 62000000 }
       ],
-      "colorOptions": [
-        "Bạc",
-        "Xám",
-        "Đen"
-      ],
-      "authentic": "chính hãng",
-      "warranty": "24 tháng",
-      "createdAt": "2025-09-20",
-      "updatedAt": "2025-09-28"
-    },
-    {
-      "id": "6",
-      "name": "Dell XPS 13",
-      "slug": "dell-xps-13",
-      "brand": 5,
-      "price": 35000000,
-      "discount": 5,
-      "stock": 60,
-      "image": "img/dell.jpg",
-      "category": 2,
-      "specs_id": "6",
-      "tags": [
-        "mỏng nhẹ",
-        "doanh nhân"
-      ],
-      "hot": false,
-      "rating": 4.7,
-      "reviews": 740,
-      "description": "Dell XPS 13 thiết kế siêu mỏng nhẹ, màn hình InfinityEdge 13.4 inch, pin lâu và hiệu năng ổn định.",
-      "variants": [
-        {
-          "ram": "16GB",
-          "rom": "512GB",
-          "price": 35000000
-        },
-        {
-          "ram": "32GB",
-          "rom": "1TB",
-          "price": 42000000
-        },
-        {
-          "ram": "64GB",
-          "rom": "2TB",
-          "price": 50000000
-        }
-      ],
-      "colorOptions": [
-        "Bạc",
-        "Đen"
-      ],
-      "authentic": "chính hãng",
-      "warranty": "12 tháng",
-      "createdAt": "2025-06-01",
-      "updatedAt": "2025-06-05"
+      "warranty": "24 tháng"
     },
     {
       "id": "7",
       "name": "Asus Zenbook",
-      "slug": "asus-zenbook",
       "brand": 6,
       "price": 25000000,
       "discount": 10,
       "stock": 70,
-      "image": "img/asus.jpg",
       "category": 2,
       "specs_id": "7",
-      "tags": [
-        "mỏng nhẹ",
-        "học tập",
-        "sinh viên"
-      ],
+      "tags": ["mỏng nhẹ", "học tập"],
       "hot": true,
       "rating": 4.5,
-      "reviews": 640,
-      "description": "Asus Zenbook với thiết kế hiện đại, màn OLED sắc nét, hiệu suất tối ưu cho công việc và giải trí.",
+      "description": "Asus Zenbook thiết kế hiện đại, màn OLED sắc nét, hiệu suất tối ưu.",
       "variants": [
-        {
-          "ram": "8GB",
-          "rom": "256GB",
-          "price": 25000000
-        },
-        {
-          "ram": "16GB",
-          "rom": "512GB",
-          "price": 28000000
-        },
-        {
-          "ram": "32GB",
-          "rom": "1TB",
-          "price": 32000000
-        }
+        { "ram": "8GB", "rom": "256GB", "price": 25000000 },
+        { "ram": "16GB", "rom": "512GB", "price": 28000000 }
       ],
-      "colorOptions": [
-        "Xám",
-        "Bạc",
-        "Xanh"
-      ],
-      "authentic": "xách tay",
-      "warranty": "12 tháng",
-      "createdAt": "2025-04-10",
-      "updatedAt": "2025-04-12"
-    },
-    {
-      "id": "8",
-      "name": "HP Envy",
-      "slug": "hp-envy",
-      "brand": 7,
-      "price": 20000000,
-      "discount": 12,
-      "stock": 85,
-      "image": "img/hp.jpg",
-      "category": 2,
-      "specs_id": "8",
-      "tags": [
-        "văn phòng",
-        "sinh viên"
-      ],
-      "hot": true,
-      "rating": 4.6,
-      "reviews": 480,
-      "description": "HP Envy sang trọng với màn hình viền mỏng, âm thanh Bang & Olufsen, pin khỏe phục vụ học tập và làm việc.",
-      "variants": [
-        {
-          "ram": "8GB",
-          "rom": "256GB",
-          "price": 20000000
-        },
-        {
-          "ram": "16GB",
-          "rom": "512GB",
-          "price": 23500000
-        },
-        {
-          "ram": "32GB",
-          "rom": "1TB",
-          "price": 27000000
-        }
-      ],
-      "colorOptions": [
-        "Bạc",
-        "Đen"
-      ],
-      "authentic": "chính hãng",
-      "warranty": "18 tháng",
-      "createdAt": "2025-09-10",
-      "updatedAt": "2025-09-15"
+      "warranty": "12 tháng"
     }
   ],
   "product_specs": [
     {
       "screen": "6.1 inch Super Retina XDR OLED",
-      "camera": "12MP + 12MP",
       "cpu": "A15 Bionic",
-      "ram": "6/8/12GB",
       "storage": "64/128/256GB",
-      "battery": "4000 mAh",
       "id": "1"
     },
     {
       "id": "2",
       "screen": "6.1 inch Dynamic AMOLED 2X",
       "cpu": "Snapdragon 8 Gen 2 / Exynos 2300",
-      "ram": "6/8/12GB",
-      "storage": "64/128/256GB",
-      "camera": "50MP + 12MP + 10MP",
-      "battery": "3900 mAh",
-      "os": "Android 13",
-      "sim": "Dual SIM",
-      "weight": "168g"
-    },
-    {
-      "id": "3",
-      "screen": "6.36 inch AMOLED",
-      "cpu": "Snapdragon 8 Gen 2",
-      "ram": "6/8/12GB",
-      "storage": "64/128/256GB",
-      "camera": "50MP + 12MP",
-      "battery": "4500 mAh",
-      "os": "Android 13",
-      "sim": "Dual SIM",
-      "weight": "196g"
-    },
-    {
-      "id": "4",
-      "screen": "6.78 inch IPS LCD",
-      "cpu": "MediaTek Dimensity 1100",
-      "ram": "4/6/8GB",
-      "storage": "64/128/256GB",
-      "camera": "64MP + 8MP + 2MP",
-      "battery": "4500 mAh",
-      "os": "Android 12",
-      "sim": "Dual SIM",
-      "weight": "189g"
+      "storage": "64/128/256GB"
     },
     {
       "id": "5",
       "screen": "16 inch Liquid Retina XDR",
       "cpu": "Apple M2 Pro",
-      "ram": "16/32/64GB",
-      "storage": "512GB/1TB/2TB SSD",
-      "gpu": "M2 Pro 16-core GPU",
-      "battery": "100Wh",
-      "os": "macOS Ventura",
-      "weight": "2.1kg",
-      "ports": "3x Thunderbolt 4, HDMI, SDXC"
-    },
-    {
-      "id": "6",
-      "screen": "13.4 inch InfinityEdge",
-      "cpu": "Intel Core i7-1360P",
-      "ram": "16/32/64GB",
-      "storage": "512GB/1TB/2TB SSD",
-      "gpu": "Intel Iris Xe",
-      "battery": "52Wh",
-      "os": "Windows 11",
-      "weight": "1.2kg",
-      "ports": "2x Thunderbolt 4, 1x USB-C, Audio jack"
+      "ram": "16/32/64GB"
     },
     {
       "id": "7",
       "screen": "14 inch OLED",
       "cpu": "Intel Core i5-1335U",
-      "ram": "8/16/32GB",
-      "storage": "256GB/512GB/1TB SSD",
-      "gpu": "Intel Iris Xe",
-      "battery": "63Wh",
-      "os": "Windows 11",
-      "weight": "1.3kg",
-      "ports": "2x USB-C, 1x USB-A, HDMI, Audio jack"
-    },
-    {
-      "id": "8",
-      "screen": "15.6 inch Full HD",
-      "cpu": "Intel Core i7-1255U",
-      "ram": "8/16/32GB",
-      "storage": "256GB/512GB/1TB SSD",
-      "gpu": "Intel Iris Xe",
-      "battery": "60Wh",
-      "os": "Windows 11",
-      "weight": "1.9kg",
-      "ports": "2x USB-C, 1x USB-A, HDMI, Audio jack"
+      "ram": "8/16/32GB"
     }
   ],
   "categories": [
-    {
-      "id": "1",
-      "name": "Điện thoại"
-    },
-    {
-      "id": "2",
-      "name": "Laptop"
-    },
-    {
-      "id": "3",
-      "name": "Phụ kiện"
-    },
-    {
-      "id": "4",
-      "name": "Âm thanh"
-    },
-    {
-      "id": "5",
-      "name": "Phụ kiện bảo vệ"
-    }
+    { "id": "1", "name": "Điện thoại" },
+    { "id": "2", "name": "Laptop" },
+    { "id": "3", "name": "Phụ kiện" }
   ],
   "brands": [
-    {
-      "id": "1",
-      "name": "Apple"
-    },
-    {
-      "id": "2",
-      "name": "Samsung"
-    },
-    {
-      "id": "3",
-      "name": "Xiaomi"
-    },
-    {
-      "id": "4",
-      "name": "Vivo"
-    },
-    {
-      "id": "5",
-      "name": "Dell"
-    },
-    {
-      "id": "6",
-      "name": "Asus"
-    },
-    {
-      "id": "7",
-      "name": "HP"
-    },
-    {
-      "id": "8",
-      "name": "Sony"
-    },
-    {
-      "id": "9",
-      "name": "Razer"
-    },
-    {
-      "id": "10",
-      "name": "JBL"
-    },
-    {
-      "id": "11",
-      "name": "Generic"
-    }
+    { "id": "1", "name": "Apple" },
+    { "id": "2", "name": "Samsung" },
+    { "id": "3", "name": "Xiaomi" },
+    { "id": "5", "name": "Dell" },
+    { "id": "6", "name": "Asus" }
   ],
   "orders": [
     {
@@ -543,102 +120,14 @@
       "customerInfo": {
         "name": "Nguyễn Văn A",
         "email": "vana@example.com",
-        "phone": "0901 123 456",
-        "address": "123 Đường ABC, Phường X, Quận Y, TP.HCM"
+        "address": "123 Đường ABC, TP.HCM"
       },
-      "items": [
-        {
-          "id": 101,
-          "name": "iPhone 14",
-          "price": 20000000,
-          "quantity": 1,
-          "image": "uploads/iphone14.jpg"
-        },
-        {
-          "id": 202,
-          "name": "Dây sạc USB-C 1m",
-          "price": 200000,
-          "quantity": 1,
-          "image": "uploads/usb-c.jpg"
-        }
-      ],
       "total": 20200000,
       "status": "Đang xử lý",
-      "createdAt": "2025-10-01",
-      "notes": "holi shit looix cs\n"
-    },
-    {
-      "id": "2",
-      "customerInfo": {
-        "name": "Trần Thị B",
-        "email": "thib@example.com",
-        "phone": "0902 987 654",
-        "address": "456 Đường XYZ, Phường T, Quận V, Hà Nội"
-      },
-      "items": [
-        {
-          "id": 201,
-          "name": "Macbook Pro 2023",
-          "price": 55000000,
-          "quantity": 1,
-          "image": "uploads/macbook2023.jpg"
-        }
-      ],
-      "total": 55000000,
-      "status": "Hoàn thành",
-      "createdAt": "2025-09-25",
-      "notes": ""
-    },
-    {
-      "id": "3",
-      "customerInfo": {
-        "name": "Admin",
-        "email": "admin@example.com",
-        "phone": "0903 555 777",
-        "address": "789 Đường 123, Khu Công nghệ cao, Thủ Đức, TP.HCM"
-      },
-      "items": [
-        {
-          "id": 1,
-          "name": "AirPods Pro 2",
-          "price": 6500000,
-          "quantity": 1,
-          "image": "uploads/airpodspro2.jpg"
-        },
-        {
-          "id": 6,
-          "name": "Ốp điện thoại iPhone 14",
-          "price": 300000,
-          "quantity": 1,
-          "image": "uploads/op-iphone14.jpg"
-        }
-      ],
-      "total": 6800000,
-      "status": "Đang giao hàng",
-      "createdAt": "2025-10-05"
+      "createdAt": "2025-10-01"
     }
   ],
   "users": [
-    {
-      "id": "1",
-      "name": "Admin",
-      "email": "admin@example.com",
-      "password": "admin123",
-      "role": "admin"
-    },
-    {
-      "id": "1760463579889",
-      "username": "toan",
-      "email": "toan@gmail.com",
-      "password": "123456",
-      "role": "user"
-    },
-    {
-      "id": "1760463579889",
-      "username": "admin",
-      "email": "admin@gmail.com",
-      "password": "123456",
-      "role": "admin"
-    }
+    { "id": "1", "name": "Admin", "email": "admin@example.com", "role": "admin" }
   ]
 }
