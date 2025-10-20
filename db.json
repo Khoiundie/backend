@@ -102,18 +102,7 @@
       "ram": "8/16/32GB"
     }
   ],
-  "categories": [
-    { "id": "1", "name": "Điện thoại" },
-    { "id": "2", "name": "Laptop" },
-    { "id": "3", "name": "Phụ kiện" }
-  ],
-  "brands": [
-    { "id": "1", "name": "Apple" },
-    { "id": "2", "name": "Samsung" },
-    { "id": "3", "name": "Xiaomi" },
-    { "id": "5", "name": "Dell" },
-    { "id": "6", "name": "Asus" }
-  ],
+
   "orders": [
     {
       "id": "1",
